@@ -15,7 +15,8 @@ body {
     width: 100%;
     height: 100vh;
     padding: 10px;
-    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+    /* background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%); */
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
 
 }
 
@@ -26,12 +27,11 @@ body {
     margin: 120px auto;
     padding: 25px;
     border-radius: 5px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
 }
 
-.wrapper header {
-    font-size: 30px;
-    font-weight: 600;
+.wrapper h1{
+    text-align: center;
 }
 
 .wrapper .inputField {
