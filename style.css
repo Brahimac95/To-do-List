@@ -92,6 +92,7 @@ body {
 .todoList li{
     position: relative;
     list-style: none;
+    user-select: none;
     font-weight: bold;
     height: 45px;
     line-height: 45px;
